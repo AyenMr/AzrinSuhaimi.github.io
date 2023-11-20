@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>AZRIN SUHAIMI</title>
+</head>
+
+
+	<title>Time Table</title>
+
+	<header class="header">
+		<a href="index.html" class="logo">AZRIN SUHAIMI.</a>
+
+		<nav class="navbar">
+			
+			<a href="biography.html">Biography</a>
+			<a href="timeTable.html">Time Table</a>
+			<a href="galery.html">Galleries</a>
+			<a href="jadual.pdf">Download</a>
+			<a href="link.html">Links</a>
+			<a href="sign.html">Sign In</a>
+			<a href="index.html">Sign out</a>
+
+		</nav>
+
+		</header>
+
+	<div class="container">
+
+				<section>
+        <h2>CDCS2644A</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+            <tr>
+                <td>8:00 AM - 10:00 AM</td>
+                <td></td>
+               
+                 <td>
+                        <span class="tooltip" title="Class: ISP581, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('ENTERPRISE INFORMATION SYSTEMS (ISP581)', 'KAMALIA AZMA BINTI KAMARUDDIN')">ISP581</a>
+                        </span>
+                    </td>
+
+                <td>
+                        <span class="tooltip" title="Class: ELC650, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('ENGLISH FOR PROFESSIONAL INTERACTION (ELC650)', 'SOFEA AZLENA TUNG BINTI ADIB VINCENT TUNG')">ELC650</a>
+                        </span>
+                    </td>
+                <td>
+                        <span class="tooltip" title="Class: ISP640, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('COMPUTING PROJECT MANAGEMENT (ISP640)', 'KALSOM BINTI NASIR')">ISP640</a>
+                        </span>
+                    </td>
+                <td>
+                        <span class="tooltip" title="Class: ISP581, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('VALUES AND CIVILIZATION II (CTU554)', 'NURUL FATHIN BINTI NGADIMAN')">CTU554</a>
+                        </span>
+                    </td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 12:00 PM</td>
+                <td>
+                        <span class="tooltip" title="Class: ISP581, Teacher: [Teacher Name]">
+                             <a href="#" class="course-link" onclick="showDetails('ENTERPRISE INFORMATION SYSTEMS (ISP581)', 'KAMALIA AZMA BINTI KAMARUDDIN')">ISP581</a>
+                        </span>
+                    </td>
+                <td></td>
+                <td>
+                        <span class="tooltip" title="Class: ISP565, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('DATA MINING (ISP565)', 'MASTURA BINTI HANAFIAH')">ISP565</a>
+                        </span>
+                    </td>
+                <td></td>
+                <td>
+                        <span class="tooltip" title="Class: ISP565, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('DATA MINING (ISP565)', 'MASTURA BINTI HANAFIAH')">ISP565</a>
+                        </span>
+                    </td>
+            </tr>
+
+            <tr>
+                <td>12:00 PM - 2:00 PM</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                        <span class="tooltip" title="Class: ISP443, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('WEB PROGRAMMING (CSC443)', 'NUR AINA KHADIJAH BINTI ADNAN')">CSC443</a>
+                        </span>
+                    </td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>2:00 PM - 4:00 PM</td>
+                <td>
+                        <span class="tooltip" title="Class: ISP550, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('INFORMATION SYSTEMS ENGINEERING (ISP550)', 'DR. SURIYATI BINTI RAZALI')">ISP550</a>
+                        </span>
+                    </td>
+                <td>
+                        <span class="tooltip" title="Class: TAC451, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('INTRODUCTORY ARABIC (LEVEL II) (TAC451)', 'MOHD AKASHAH BIN MOHAMAD YUSOF')">TAC451</a>
+                        </span>
+                    </td>
+                <td>
+                        <span class="tooltip" title="Class: ISP550, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('INFORMATION SYSTEMS ENGINEERING (ISP550)', 'DR. SURIYATI BINTI RAZALI')">ISP550</a>
+                        </span>
+                    </td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>4:00 PM - 6:00 PM</td>
+                <td>
+                        <span class="tooltip" title="Class: ISP640, Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('COMPUTING PROJECT MANAGEMENT (ISP640)', 'NORJANSALIKA BINTI JANOM')">ISP640</a>
+                        </span>
+                    </td>
+                <td>
+                        <span class="tooltip" title="Class: CSC443
+                      , Teacher: [Teacher Name]">
+                            <a href="#" class="course-link" onclick="showDetails('WEB PROGRAMMING (CSC443)', 'AZIZIAN BIN MOHD SAPAWI')">CSC443</a>
+                        </span>
+                    </td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <!-- Add more rows for other times -->
+        </table>
+
+        <div id="courseDetailsPopup" class="popup">
+                <span class="close-btn" onclick="closeDetailsPopup()">-</span>
+                <h3 id="courseName"></h3>
+                <p id="teacherName"></p>
+            </div>
+
+    </div>
+</section>
+
+ <script>
+        function showDetails(courseName, teacherName) {
+            document.getElementById('courseName').textContent = 'Course: ' + courseName;
+            document.getElementById('teacherName').textContent = 'Teacher: ' + teacherName;
+            document.getElementById('courseDetailsPopup').style.display = 'block';
+        }
+
+        function closeDetailsPopup() {
+            document.getElementById('courseDetailsPopup').style.display = 'none';
+        }
+    </script>
+
+	</html>
+</head>
